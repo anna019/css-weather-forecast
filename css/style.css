@@ -1,0 +1,107 @@
+
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;	
+	background-color: #3399CC;
+	border: 15px solid #2B81AC;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.weather{
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 50%;
+}
+
+.weather__head{
+	margin: 20px 0;
+	font-size: 18px;
+
+}
+
+.weather__list{
+	list-style-type: none;
+	padding: 2px;
+	font-size: 0;
+	background-color: #fff;
+
+}
+
+.weather__list .weather__item{
+	font-size: 14px;
+	display: inline-block;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	text-align: center;
+	transition: all .1s ease-in;	
+}
+.weather__list .weather__item:nth-child(1) {
+	background-color: #3399CC;
+}
+.weather__list .weather__item:nth-child(2) {
+	background-color: #33CCCC;
+}
+.weather__list .weather__item:nth-child(3) {
+	background-color: #996699;
+}
+.weather__list .weather__item:nth-child(4) {
+	background-color: #C24747;
+}
+.weather__list .weather__item:nth-child(5) {
+	background-color: #E2674A;
+}
+.weather__list .weather__item:nth-child(6) {
+	background-color: #FFCC66;
+}
+.weather__list .weather__item:nth-child(7) {
+	background-color: #FFCC66;
+}
+.weather__list .weather__item:nth-child(8) {
+	background-color: #669999;
+}
+.weather__list .weather__item:nth-child(9) {
+	background-color: #CC6699;
+}
+.weather__list .weather__item:nth-child(10) {
+	background-color: #339966;
+}
+.weather__list .weather__item:nth-child(11) {
+	background-color: #666699;
+}
+
+.weather__list .weather__item .weather__name{
+	font-size: 16px;
+	margin: 10px;
+}
+.weather__list .weather__item .weather__deg{
+	opacity: .7;
+	margin-top: 0;
+	font-size: 16px;
+}
+
+.weather__list .weather__item .weather__deg .wi{
+	padding-left:  10px;
+	font-size: 25px;
+}
+.weather__list:hover .weather__item:not(:hover){
+	opacity: 0.7;
+}
+.weather__list  .big{
+	width: 100%;
+}
+.weather__list  .normal{
+	width: 50%;
+}
+.weather__list  .small{
+	width: 25%;
+}
+.weather__descrp{
+	margin: 10px;
+	font-size: 14px;
+}
